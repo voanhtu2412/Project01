@@ -120,7 +120,7 @@ a {
   position: relative;
 }
 
-.hero .media-block .img {
+.hero .media-block .img-main {
   width: 470px;
   height: 685px;
   object-fit: cover;
