@@ -408,3 +408,68 @@ a {
 .popular .course-item .btn-book:hover {
   background-color: var(--primary-color);
 }
+
+/* ======================== feedback =========================== */
+.feedback {
+  margin-top: 135px;
+  padding: 96px 0px;
+  background: #2e2100;
+}
+
+.feedback-item {
+  display: flex;
+}
+
+.feedback-item .avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.feedback-item .info .member-name {
+  margin-top: 18px;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 1.42;
+  color: #f7f7f7;
+}
+
+.feedback-item .info .desc {
+  margin-top: 4px;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  color: #bfbcb2;
+}
+
+.feedback-item .dots {
+  display: flex;
+  margin-top: 28px;
+  gap: 6px;
+}
+
+.feedback-item .dot.active {
+  background-color: var(--primary-color);
+  cursor: default;
+}
+
+.feedback-item .dot {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background: #634700;
+  cursor: pointer;
+}
+
+.feedback-item .content {
+  width: 66%;
+  margin-left: auto;
+}
+
+.feedback-item blockquote {
+  color: #fff;
+  font-style: italic;
+  font-size: 2.6rem;
+  line-height: 1.54;
+}
